@@ -1,0 +1,33 @@
+{
+	"name": "@involvex/ytui-engine",
+	"version": "0.0.0",
+	"description": "Standalone playback engine for ytui",
+	"license": "MIT",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./index.ts",
+			"import": "./index.ts"
+		}
+	},
+	"files": [
+		"events",
+		"mpv",
+		"playback",
+		"index.ts",
+		"README.md"
+	],
+	"scripts": {
+		"typecheck": "tsc --noEmit -p tsconfig.json"
+	},
+	"dependencies": {
+		"rxjs": "^7.8.2"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^8.1.0",
+		"@tsconfig/bun": "^1.0.10",
+		"@types/node": "^25.6.0",
+		"bun-types": "^1.3.13",
+		"typescript": "^6.0.3"
+	}
+}

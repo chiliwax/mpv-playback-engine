@@ -1,0 +1,10 @@
+{
+	"extends": ["@sindresorhus/tsconfig", "@tsconfig/bun"],
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"types": ["bun-types", "node"]
+	},
+	"include": ["**/*.ts"]
+}
