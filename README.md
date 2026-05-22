@@ -1,6 +1,6 @@
 # Engine
 
-This is the standalone playback engine package. It has no React or Ink dependency.
+A TypeScript playback engine built on top of mpv’s JSON IPC protocol. It manages mpv process lifecycle, IPC communication, typed playback commands, state/events, and resource cleanup, while staying UI-agnostic and focused on core playback primitives.
 
 ## What it owns
 
@@ -37,6 +37,3 @@ await engine.stop();
 stateSubscription.unsubscribe();
 ```
 
-## Current status
-
-This module is intentionally not wired into the existing TUI yet. The next step is to test this engine directly against real mpv, then replace the existing player service with this API.
