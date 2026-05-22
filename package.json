@@ -1,7 +1,7 @@
 {
-	"name": "@involvex/ytui-engine",
+	"name": "@chiliwax/mpv-playback-engine",
 	"version": "0.0.0",
-	"description": "Standalone playback engine for ytui",
+	"description": "A TypeScript playback engine built on top of mpv JSON IPC protocol.",
 	"license": "MIT",
 	"type": "module",
 	"exports": {
